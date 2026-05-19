@@ -1,0 +1,253 @@
+Build a full-stack production-ready SaaS marketing website called "Finventory" for a business software company that provides accounting, inventory, payroll, CRM, HR, analytics, and business automation solutions.
+
+IMPORTANT:
+This is NOT the actual accounting software product yet.
+This is a marketing + lead generation + business showcase website for our services.
+
+GOAL:
+Create a premium modern website similar in quality to Tally, Busy, Zoho, Stripe, and modern SaaS companies.
+
+TECH STACK REQUIREMENTS:
+Frontend:
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+- React Hook Form
+- Lucide React icons
+- Axios
+
+Backend:
+- Node.js
+- Express.js
+
+Database:
+- MongoDB with Mongoose
+
+Authentication:
+- JWT authentication
+- bcrypt password hashing
+- admin login support
+
+Email:
+- Nodemailer for contact/demo form emails
+
+Optional:
+- Cloudinary for image uploads
+- dotenv for environment config
+
+PROJECT TYPE:
+Full-stack MERN application.
+
+DESIGN REQUIREMENTS:
+Create a premium enterprise fintech/SaaS UI.
+
+Design style:
+- modern SaaS
+- clean enterprise UI
+- premium business feel
+- smooth animations
+- responsive
+- glassmorphism where suitable
+- subtle gradients
+- hover interactions
+- micro animations
+- dashboard mockup visuals
+- bento grid layouts
+- professional typography
+
+Color palette:
+Primary:
+Deep navy (#0B1F3A)
+
+Secondary:
+Electric blue (#2563EB)
+
+Accent:
+Cyan (#06B6D4)
+
+Neutral:
+White / light gray / charcoal
+
+UI must be better than a generic template.
+
+FULL WEBSITE PAGES:
+
+1. Home Page
+Include:
+- premium navbar
+- hero section
+- animated dashboard preview
+- trust badges
+- business counters
+- services overview
+- why choose us
+- industries served
+- how it works
+- testimonials carousel
+- FAQ accordion
+- CTA sections
+- premium footer
+
+Hero CTA:
+- Book Demo
+- Contact Us
+
+2. Services Page
+Detailed showcase for:
+- Accounting Solutions
+- Inventory Management
+- Payroll Services
+- CRM Solutions
+- HR Management
+- Reports & Analytics
+- GST & Tax Support
+- Business Automation
+
+Each service section must include:
+- icons
+- animations
+- professional descriptions
+- benefits
+- CTA button
+
+3. Industries Page
+Industry cards/pages:
+- Retail
+- Wholesale
+- Manufacturing
+- Pharmacy
+- Restaurants
+- Ecommerce
+- Startups
+
+Each with business-focused descriptions.
+
+4. About Us Page
+Include:
+- company story
+- mission
+- vision
+- why choose finventory
+- team section
+- milestones timeline
+
+5. Contact Us Page
+Features:
+- working contact form
+- map placeholder
+- email
+- phone
+- office details
+- whatsapp CTA
+
+Store submissions in MongoDB.
+
+6. Book Demo Page
+Working appointment booking form.
+
+Fields:
+- full name
+- business name
+- industry
+- phone
+- email
+- company size
+- preferred demo date
+- preferred time
+- message
+
+Requirements:
+- save to MongoDB
+- send email notification
+- admin dashboard access
+
+7. Pricing Page
+Modern pricing cards:
+- Starter
+- Business
+- Enterprise
+
+Include comparison table.
+
+8. FAQ Page
+
+9. Blog Page
+Blog listing UI + backend structure.
+
+10. Admin Dashboard
+Secure admin panel with login.
+
+Admin features:
+- view contact enquiries
+- view demo bookings
+- manage blog posts
+- mark enquiries status
+- dashboard analytics
+
+DATABASE MODELS:
+Create MongoDB schemas for:
+- Users
+- Contact Enquiries
+- Demo Bookings
+- Blog Posts
+- Testimonials
+- FAQs
+
+BACKEND API:
+Create Express APIs for:
+- auth
+- contact form
+- demo booking
+- blog CRUD
+- faq retrieval
+- testimonial retrieval
+- admin dashboard stats
+
+SECURITY:
+- JWT auth
+- protected admin routes
+- input validation
+- environment variables
+- secure password hashing
+- CORS setup
+
+RESPONSIVENESS:
+Fully mobile responsive.
+Desktop + tablet + mobile.
+
+FOLDER STRUCTURE:
+Use clean scalable architecture:
+
+finventory/
+  client/
+  server/
+
+CLIENT:
+Organize:
+components/
+pages/
+layouts/
+services/
+hooks/
+utils/
+assets/
+
+SERVER:
+Organize:
+controllers/
+models/
+routes/
+middleware/
+config/
+utils/
+
+DELIVERABLE:
+Generate complete working full-stack code.
+Set up routing, backend APIs, MongoDB connection, frontend pages, admin dashboard, and responsive UI.
+
+Code must be clean, production structured, reusable, and scalable.
+
+Do not generate placeholder low-quality UI.
+Build a premium startup-grade SaaS marketing website.
