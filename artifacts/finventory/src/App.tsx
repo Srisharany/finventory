@@ -1,4 +1,4 @@
-import { Switch, Route, Router as WouterRouter } from "wouter";
+import { Switch, Route, Router as WouterRouter, useLocation } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "sonner";
 import { setAuthTokenGetter } from "@workspace/api-client-react";
@@ -19,6 +19,7 @@ import AdminDashboard from "@/pages/admin/Dashboard";
 import AdminContacts from "@/pages/admin/Contacts";
 import AdminBookings from "@/pages/admin/Bookings";
 import AdminBlog from "@/pages/admin/Blog";
+import ChatWidget from "@/components/ChatWidget";
 
 setAuthTokenGetter(() => getAdminToken());
 
@@ -51,11 +52,22 @@ function Router() {
   );
 }
 
+function AppInner() {
+  const [location] = useLocation();
+  const isAdmin = location.startsWith("/admin");
+  return (
+    <>
+      <Router />
+      {!isAdmin && <ChatWidget />}
+    </>
+  );
+}
+
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
-        <Router />
+        <AppInner />
       </WouterRouter>
       <Toaster position="top-right" richColors />
     </QueryClientProvider>
