@@ -15,10 +15,7 @@ const milestones = [
 ];
 
 const team = [
-  { name: "Aditya Sharma", role: "Co-founder & CEO", bio: "Ex-Zoho, IIT Delhi. 12 years building enterprise software for Indian businesses." },
-  { name: "Priya Nair", role: "Co-founder & CTO", bio: "Ex-Freshworks, IIT Bombay. Architected platforms serving 1M+ users." },
-  { name: "Vikram Bajaj", role: "Head of Product", bio: "Ex-Tally Solutions. Brings 10 years of deep domain expertise in accounting software." },
-  { name: "Ananya Krishnan", role: "Head of Customer Success", desc: "Ensures every Finventory customer achieves measurable business outcomes." },
+  { name: "Mahesh Puttapaka", role: "Co-founder & CEO", bio: "GST Practitioner 8 + Years of Experience in Indian Accounting and Taxation." },
 ];
 
 const values = [
@@ -53,30 +50,87 @@ export default function About() {
       </section>
 
       {/* Story */}
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="p-8 rounded-2xl border border-white/8"
-            style={{ background: "rgba(255,255,255,0.02)" }}
-          >
-            <h2 className="text-2xl font-bold text-white mb-4">How It Started</h2>
-            <div className="space-y-4 text-white/60 leading-relaxed">
-              <p>
-                In 2017, our co-founder Aditya was helping his family's textile business in Surat switch software vendors — for the third time in five years. Each time, it meant weeks of pain: data migration, re-training staff, customization headaches, and a support team that disappeared after the sale.
-              </p>
-              <p>
-                He called Priya, his college batchmate from IIT Delhi who was building enterprise software at Zoho. "There has to be a better way," he said. Six months later, they quit their jobs and started Finventory.
-              </p>
-              <p>
-                The mission was simple: build the business management platform that Indian entrepreneurs actually deserve — powerful enough for enterprise, simple enough for a 5-person team, and priced fairly for the Indian market.
-              </p>
-            </div>
-          </motion.div>
-        </div>
-      </section>
+<section className="py-16">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      className="p-8 rounded-2xl border border-white/8"
+      style={{ background: "rgba(255,255,255,0.02)" }}
+    >
+      <h2 className="text-2xl font-bold text-white mb-4">
+        How It Started
+      </h2>
+
+      <div className="space-y-4 text-white/60 leading-relaxed">
+        <p>
+          In 2018, I started my journey as a CA intern with a salary
+          of just ₹3,000 per month. Coming from a humble family,
+          every rupee mattered. While many saw it as a small
+          beginning, for me it was the first step toward a bigger
+          dream.
+        </p>
+
+        <p>
+          During my internship, I worked with multiple businesses —
+          traders, manufacturing companies, and service-based firms.
+          Every office taught me something new: accounting,
+          taxation, GST, payroll, business operations, client
+          handling, and most importantly, how real businesses survive
+          and grow.
+
+          The work was hard. Long hours, pressure during filings,
+          and balancing studies with responsibilities became part of
+          everyday life. But those struggles built discipline,
+          patience, and confidence in me.
+        </p>
+
+        <p>
+          In 2020, after completing my CA internship, I joined as a
+          Junior Accountant. Slowly, my career started growing. I
+          gained experience, handled clients independently, and
+          understood the financial problems faced by businesses at
+          every level.
+        </p>
+
+        <p>
+          But deep inside, I always had a bigger vision — not just
+          to work for businesses, but to build one.
+        </p>
+
+        <p>
+          My biggest inspiration has always been my father. Coming
+          from a poor family, he spent his entire life working hard
+          to support us and fulfill his responsibilities. Despite
+          financial struggles, he successfully managed the marriages
+          of my four sisters and kept the family together with
+          sacrifice and determination.
+        </p>
+
+        <p>
+          Watching his journey taught me the true meaning of hard
+          work, responsibility, and never giving up. His struggles
+          became my motivation.
+        </p>
+
+        <p>
+          That is where the dream of building Finventory started —
+          a mission to help businesses with accounting, taxation,
+          ERP solutions, and financial services in a smarter and
+          more affordable way.
+        </p>
+
+        <p>
+          Today, the journey is still continuing. From earning
+          ₹3,000 a month as an intern to building a vision for
+          entrepreneurs, every step reminds me that small beginnings
+          can create big stories.
+        </p>
+      </div>
+    </motion.div>
+  </div>
+</section>
 
       {/* Mission & Vision */}
       <section className="py-16">
