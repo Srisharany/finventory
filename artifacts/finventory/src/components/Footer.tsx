@@ -64,18 +64,18 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-white/50 text-sm">
                 <MapPin className="w-4 h-4 mt-0.5 text-[#06B6D4] shrink-0" />
-                <span>Level 12, Cyber City Tower, Gurugram, Haryana 122002</span>
+                <span>Karimnagar,Telangana</span>
               </li>
               <li>
-                <a href="tel:+911800123456" className="flex items-center gap-2 text-white/50 hover:text-[#06B6D4] text-sm transition-colors">
+                <a href="tel:+9183408 04742" className="flex items-center gap-2 text-white/50 hover:text-[#06B6D4] text-sm transition-colors">
                   <Phone className="w-4 h-4 text-[#06B6D4]" />
-                  +91 1800 123 4567
+                  +91 83408 04742
                 </a>
               </li>
               <li>
-                <a href="mailto:hello@finventory.in" className="flex items-center gap-2 text-white/50 hover:text-[#06B6D4] text-sm transition-colors">
+                <a href="mailto:founderfinventory@gmail.com" className="flex items-center gap-2 text-white/50 hover:text-[#06B6D4] text-sm transition-colors">
                   <Mail className="w-4 h-4 text-[#06B6D4]" />
-                  hello@finventory.in
+                  founderfinventory@gmail.com
                 </a>
               </li>
             </ul>
