@@ -81,7 +81,8 @@ export default function Contact() {
 
               {/* WhatsApp CTA */}
               <a
-                href="https://wa.me/qr/Z4TDVDKT5OTRD1"
+                // href="https://wa.me/qr/Z4TDVDKT5OTRD1"
+                href="https://wa.me/918340804742?text=Hi%20Finventory%2C%20I%20want%20to%20know%20more."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-4 rounded-xl border border-green-500/30 bg-green-500/10 hover:bg-green-500/20 transition-all"
