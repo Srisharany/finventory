@@ -112,7 +112,7 @@ export default function ChatWidget() {
                     <div className="space-y-2">
                       {/* WhatsApp */}
                       <a
-                        href="https://wa.me/911800123456?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20Finventory"
+                        href="https://wa.me/918340804742"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-between px-4 py-3 rounded-xl border border-green-500/20 bg-green-500/5 hover:bg-green-500/10 hover:border-green-500/40 transition-all group"

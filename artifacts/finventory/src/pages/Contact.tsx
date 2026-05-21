@@ -54,9 +54,9 @@ export default function Contact() {
             {/* Contact Info */}
             <div className="space-y-5">
               {[
-                { icon: Phone, label: "Phone", value: "+91 1800 123 4567", sub: "Mon–Sat, 9 AM–8 PM IST", href: "tel:+911800123456" },
-                { icon: Mail, label: "Email", value: "hello@finventory.in", sub: "We respond within 24 hours", href: "mailto:hello@finventory.in" },
-                { icon: MapPin, label: "Office", value: "Cyber City Tower, Gurugram", sub: "Haryana 122002, India", href: "#" },
+                { icon: Phone, label: "Phone", value: "+91 83408 04742", sub: "Mon–Sat, 9 AM–8 PM IST", href: "tel:+9183408 04742" },
+                { icon: Mail, label: "Email", value: "founderfinventory@gmail.com", sub: "We respond within 24 hours", href: "mailto:founderfinventory@gmail.com" },
+                { icon: MapPin, label: "Office", value: "Karimnagar", sub: "Karimnagar, India", href: "#" },
                 { icon: Clock, label: "Support Hours", value: "24/7 for Premium Plans", sub: "Business hours for Standard", href: "#" },
               ].map(item => (
                 <motion.a
