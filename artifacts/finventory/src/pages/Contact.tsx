@@ -81,7 +81,7 @@ export default function Contact() {
 
               {/* WhatsApp CTA */}
               <a
-                href="https://wa.me/911800123456"
+                href="c:\Users\srish\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\ADCBC4405E20AB7C61E4B69CFAFC7E37244FBC66\transfers\2026-21\WhatsApp Image 2026-05-21 at 10.04.11 AM.jpeg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-4 rounded-xl border border-green-500/30 bg-green-500/10 hover:bg-green-500/20 transition-all"
@@ -97,7 +97,7 @@ export default function Contact() {
               <div className="rounded-xl border border-white/8 overflow-hidden h-48 flex items-center justify-center" style={{ background: "rgba(37,99,235,0.05)" }}>
                 <div className="text-center">
                   <MapPin className="w-8 h-8 text-[#2563EB]/40 mx-auto mb-2" />
-                  <div className="text-white/30 text-sm">Cyber City, Gurugram</div>
+                  <div className="text-white/30 text-sm">Karimnagar</div>
                 </div>
               </div>
             </div>
