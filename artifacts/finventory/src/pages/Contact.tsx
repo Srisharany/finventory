@@ -81,7 +81,7 @@ export default function Contact() {
 
               {/* WhatsApp CTA */}
               <a
-                href="c:\Users\srish\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\ADCBC4405E20AB7C61E4B69CFAFC7E37244FBC66\transfers\2026-21\WhatsApp Image 2026-05-21 at 10.04.11 AM.jpeg"
+                href="https://wa.me/qr/Z4TDVDKT5OTRD1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-4 rounded-xl border border-green-500/30 bg-green-500/10 hover:bg-green-500/20 transition-all"
